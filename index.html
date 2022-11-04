@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alexandra gonçalves | Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<main>
+<body>
+<div class="main-preencher">           
+    <h1>Preencha os campos com seus dados</h1>
+</div>
+
+<div class="right-preencher">
+<h1>Informações Pessoais</h1>
+</div>
+<form>
+<div class="main-informações">
+    <h1>
+    <p><label for="Nome completo">Nome Completo*</label>
+    <input type="text" id="nome-usuario" name="nome-usuario" placeholder="Digite seu nome aqui"></p>
+    
+    <label for="E-mail">E-mail*</label>
+    <input type="email" id="e-mail-usuario" name="e-mail-usuario" placeholder="Insira seu e-mail">
+    
+    <label for="Telefone">Telefone</label>
+    <input type="number" id="Telefone-usuario" name="Teefone-usuario" placeholder="Insira seu telefone"></p>
+
+    <label for="Contato">Qual sua Preferência de contato?</label>    
+    <select name="Preferência" id="Preferência" size="2">
+    <option value="0"> Telefone </option>    
+    <option value="1"> E-mail </option>  
+    </select>
+
+    <label for="Estado civil">Estado civil*</label>
+    <select name="Estado Civil" id="Estado Cilvil" size="2">
+    <option value="0"> Solteiro(a) </option>    
+    <option value="1"> Casado(a) </option>    
+
+    <option value="2"> Divorciado(a) </option>
+    <option value="3"> Viúvo(a) </option>    
+    <option value="4"> Separado(a) </option>    
+    </select>
+</h1>
+      <h1>Endereço</h1>
+
+    <p><label for="Logradouro">Logradouro*</label>
+    <input type="text" id="Logradouro usuario" name="Logradouro-usuario"></p>
+    
+    <label for="Número">Número*</label>
+    <input type="number" id="Número logradouro" name="Número-Logradouro">
+    
+    <p><label for="Bairro">Bairro</label>
+    <input type="text" id="Bairro-Usuario" name="Bairro-Usuario"></p>
+    
+    <p><label for="Cidade e Estado">Cidade e Estado*</label>
+    <input type="text" id="Cidade e estado-usuario" name="Cidade e estado-usuario"></p>
+    
+    <p><label for="CEP">CEP*</label>
+    <input type="number" id="CEP" name="CEP-usuario"></p>
+</div>
+
+<div>
+    <input type="checkbox" name="Li-e-concordo" id="Li-e-concordo" checked>
+    <label for="Li-e-concordo">Li e concordo com os termos de serviço</label>
+</div>
+
+<div>
+    <button class="btn-enviar"><a href="login.html">Cadastrar</a></button>
+    <button type="reset" class="btn-limpar">Limpar</button>
+</div>
+</form>
+</label>
+</main>
+</html>

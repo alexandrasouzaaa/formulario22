@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <title>Formulario</title>
+<main>
+</head>
+<body class="bg">
+<body>
+ 
+    <div class="main-form">
+    <h1>Formulário</h1>
+</div>
+    <form>
+        <div class="left-names">
+        <label for="nome-usuário">Nome</label>
+        <input type="texto" id="nome do usuário" placeholder="nome do usuário">
+
+        <label for="idade-usuário">Idade</label>
+        <input type="number" min="0" max="90" value="0">
+
+        <label for="E-mail">E-mail</label>
+        <input type="email" id="e-mail-usuario" name="e-mail-usuario" placeholder="Insira seu e-mail">        
+        ou
+        <label for="Telefone">Telefone</label>
+        <input type="number" id="Telefone-usuario" name="Teefone-usuario" placeholder="Insira seu telefone">
+
+        <p>Selecione seu herói favorito:</p><label for="herois"></label>
+        <select name="herois" id="herois" size="3">
+            <option value="0">Homem de Ferro</option>
+            <option value="1">Homem Aranha</option>
+            <option value="2">Lanterna Verde</option>
+            <option value="3">Capitão América</option>
+            <option value="4">Viúva Negra</option>
+            <option value="5">Batman</option>
+            <option value="6">Super Homem</option>
+            <option value="7">Super Girl</option>
+            <option value="8">Mulher Maravilha</option>
+            <option value="9">Flash</option>
+        </select> 
+
+            <div>
+           <p><input type="checkbox" name="Outro" id="Outro" checked>Outro</p>
+            </div>    
+            <label for="heroi-usuário">Qual?</label>
+            <input type="texto" id="heroi-usuário" placeholder="heroi favorito">
+           <label for="mensagem">Escreva um pouco sobre seu herói favorito</label></p>
+        <textarea name="mensagem" id="mensagem" rows="5" placeholder="opnião usuario">
+        </textarea>
+    </div>
+        <div>
+            <button>Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+
+</form>
+</body>
+</body>
+</main>
+</html>

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+body {
+    margin:auto;
+    font-family:Arial;
+    box-sizing: border-box;
+}
+
+.main-preencher{
+    margin:10px;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.right-preencher{
+    margin: 10px;
+    justify-content: left;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.main-informações{
+    margin: 10px;
+    justify-content: left;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.btn-enviar{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #014e5c;
+    background: #FFF;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #800666;
+}
+
+.btn-limpar{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #01565c;
+    background: #FFF;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #068076;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 10px 0px;
+}
+
+main{
+    background:linear-gradient(-45deg,#1971a0, #077e56);
+    animation: main 10s ease infinite;
+    padding: 30px 35px;
+    background-size: 220% 220%;
+    border-radius: 0px;
+    box-shadow: 0px 10px 40px #30181856;
+}
